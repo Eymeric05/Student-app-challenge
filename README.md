@@ -1,18 +1,18 @@
-# 🎓 Système de Gestion des Élèves
+# Système de Gestion des Élèves
 
 Un système de gestion des élèves développé en JavaScript qui charge les informations depuis un fichier JSON et fournit plusieurs fonctionnalités de recherche et de filtrage.
 
-## 🚀 Fonctionnalités
+##  Fonctionnalités
 
-- ✅ **Chargement des données** : Lecture automatique depuis `data/student.txt`
-- ✅ **Affichage de la liste complète** : Tous les élèves avec leurs informations
-- ✅ **Recherche par nom** : Recherche d'élèves par nom (insensible à la casse)
-- ✅ **Filtrage par moyenne** : Élèves avec moyenne supérieure à une valeur
-- ✅ **Statistiques générales** : Moyennes, meilleurs, plus faibles élèves
-- ✅ **Gestion d'erreurs** : Validation des entrées et cas limites
-- ✅ **Interface utilisateur** : Commandes intuitives et aide intégrée
+-  **Chargement des données** : Lecture automatique depuis `data/student.txt`
+-  **Affichage de la liste complète** : Tous les élèves avec leurs informations
+-  **Recherche par nom** : Recherche d'élèves par nom (insensible à la casse)
+-  **Filtrage par moyenne** : Élèves avec moyenne supérieure à une valeur
+-  **Statistiques générales** : Moyennes, meilleurs, plus faibles élèves
+-  **Gestion d'erreurs** : Validation des entrées et cas limites
+-  **Interface utilisateur** : Commandes intuitives et aide intégrée
 
-## 📋 Installation
+## Installation
 
 ```bash
 # Cloner le repository
@@ -25,7 +25,7 @@ cd student-management-system
 npm install
 ```
 
-## 🎯 Utilisation
+## Utilisation
 
 ### Version interactive avec commandes (recommandée)
 ```bash
@@ -37,7 +37,7 @@ node commands.js
 node index.js
 ```
 
-## 📋 Commandes disponibles
+## Commandes disponibles
 
 Une fois le programme lancé avec `node commands.js` :
 
@@ -51,7 +51,7 @@ Une fois le programme lancé avec `node commands.js` :
 | `help` | Afficher l'aide | `help` |
 | `quit` | Quitter le programme | `quit` |
 
-## 📊 Exemples d'utilisation
+## Exemples d'utilisation
 
 ### Recherche d'élèves
 ```
@@ -68,16 +68,16 @@ Une fois le programme lancé avec `node commands.js` :
 🎓 > stats
 ```
 
-## 🧪 Tests
+## Tests
 
 Le système inclut des tests automatiques pour :
-- ✅ Gestion des entrées vides ou invalides
-- ✅ Valeurs numériques hors limites (0-20)
-- ✅ Recherches sans résultats
-- ✅ Commandes inconnues
-- ✅ Fichiers manquants ou corrompus
+- Gestion des entrées vides ou invalides
+- Valeurs numériques hors limites (0-20)
+- Recherches sans résultats
+- Commandes inconnues
+- Fichiers manquants ou corrompus
 
-## 📁 Structure du projet
+## Structure du projet
 
 ```
 student-management-system/
@@ -91,28 +91,14 @@ student-management-system/
     └── student.txt          # Données des élèves (JSON)
 ```
 
-## 🎯 Exigences du challenge
+## Exigences du challenge
 
 Ce projet répond aux exigences du challenge `studentAppChallenge.md` :
 
-1. ✅ Programme JavaScript qui charge les données depuis `student.txt`
-2. ✅ Affichage de la liste de tous les élèves
-3. ✅ Recherche d'élèves par nom
-4. ✅ Filtrage par moyenne supérieure
-5. ✅ Gestion des cas limites et erreurs
-6. ✅ Tests avec différentes commandes
+1. Programme JavaScript qui charge les données depuis `student.txt`
+2. Affichage de la liste de tous les élèves
+3. Recherche d'élèves par nom
+4. Filtrage par moyenne supérieure
+5. Gestion des cas limites et erreurs
+6. Tests avec différentes commandes
 
-## 🤝 Contribution
-
-Les contributions sont les bienvenues ! N'hésitez pas à :
-- Signaler des bugs
-- Proposer des améliorations
-- Ajouter de nouvelles fonctionnalités
-
-## 📄 Licence
-
-Ce projet est sous licence ISC.
-
----
-
-**Développé avec ❤️ en JavaScript**
