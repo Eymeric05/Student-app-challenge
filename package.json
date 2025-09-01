@@ -1,0 +1,13 @@
+{
+  "name": "student-app",
+  "version": "1.0.0",
+  "description": "Système de gestion des élèves",
+  "main": "commands.js",
+  "scripts": {
+    "start": "node commands.js",
+    "test": "node commands.js"
+  },
+  "keywords": ["students", "management", "nodejs"],
+  "author": "",
+  "license": "ISC"
+}
